@@ -1,0 +1,61 @@
+<div style="text-align: justify;"> 
+
+<div style="text-align: center;"> <h1># Jupyter lab (6th August 2024) </h1> </div>
+
+This is my first Jupyter notebook.
+
+I'm going to try to explain what I have been learning and hope to learn more as I continue creating this notebook. Additionally, I will practice my English.
+
+### first of all
+
+Jupyter Lab is a platform you can use in your browser. With Jupyter Lab, you can create "Jupyter Notebooks," which are like a combination of a word processor and a programming environment.
+
+It primarily supports coding in "Markdown (with HTML)" and "Python," but you can use other languages as well. This means you can write text and also include Python code to create charts, plots, animations, or any other output you desire.
+
+### but it is not that simple
+
+To use Jupyter, you first need to install it, and you can't just download it directly; you need to install it via the command prompt. Open your command prompt and type **"pip install jupyterlab"**. After the installation, you can start the program by typing **"jupyter lab"**. This will open Jupyter Lab in your default web browser.
+
+### well
+
+Now you can see Jupyter Lab, where you can view your files and folders on the left and create notebooks on the right.
+
+When you create a notebook, you have the option to add cells for writing: a Markdown cell or a Code cell. Typically, the Code cell runs Python code.
+
+#### Attention!
+
+It doesn't save automatically, so be careful. Also, your notebook is not stored in the cloud, so you cannot access it from another computer directly. There are ways to do this, but in my opinion, it's not straightforward.
+
+What I do in the beginning is to write my notebook, then download it and upload it to GitHub. I'm not sure, but I believe I can download the file from GitHub later and then upload it back to Jupyter Lab. 
+**<span style="color: yellow;"> (Yes, it works, I tried) </span>**
+
+<div style="text-align: center;"> <h1> # What I have learned so far </h1> </div>
+
+1- **You can insert images into your notebook** using a Markdown cell, not necessarily a Code cell. However, if you upload the image from your computer, you won't be able to view it on another computer because the image path is unique to your machine.
+
+A good approach is to use an online image. To do this, find the image and copy its URL. Here’s the command you use in Markdown to display an image:
+
+```<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Pygoscelis_adeliae.jpg" alt="Alt Text" style="width:130px;height:200px;">```
+
+Note: You cannot see the image even if you run the code because I put this code between triple backticks (```), which treats it as a string. If you remove the backticks, you will see an image of a penguin.
+
+2- **You can highlight text** by placing it between asterisks ```"**text**"```
+
+3- **You can italicize text** by placing it between asterisks ```"*text*"```
+
+4- **You can control the size of the text** by placing "#" before it. Using one hashtag gives you the largest size, and as you add more hashtags, the text size decreases.
+
+5- **<span style="color: red;">You can change the color of the text.</span>** It's not exactly Markdown language, but rather HTML, which works well in Markdown cells in Jupyter notebooks. Use this code: ```<span style="color: blue;">blue text</span>.```
+
+6- **You can justify the text.** However, I must admit that I haven't noticed much difference so far, possibly due to the length of the text. Just like changing the color of the text, justifying the text also requires using HTML. Here’s the code:
+
+```<div style="text-align: justify;"> Seu texto aqui. Este texto será justificado dentro do Jupyter Notebook. </div>```
+
+7- **You can center the text**, just as I did with the title of this notebook. Here’s the HTML code:
+
+```<div style="text-align: center;"> <h1>This is a centered title</h1> </div>```
+
+If you were curious about the penguin:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Pygoscelis_adeliae.jpg" alt="Alt Text" style="width:130px;height:200px;">
+
